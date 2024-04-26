@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/bbernhard/signal-cli-rest-api/utils"
+	"github.com/hashemamireh/signal-cli-rest-api/utils"
 	log "github.com/sirupsen/logrus"
 	"io/ioutil"
 	"os"
