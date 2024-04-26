@@ -1021,7 +1021,7 @@ func (s *SignalClient) GetGroups(number string) ([]GroupEntry, error) {
 
 		members := []string{}
 		for _, val := range signalCliGroupEntry.Members {
-			members = append(members, val.Number)
+			members = append(members, val)
 		}
 		groupEntry.Members = members
 
