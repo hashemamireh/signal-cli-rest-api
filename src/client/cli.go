@@ -8,7 +8,7 @@ import (
 	"time"
 	"bufio"
 	log "github.com/sirupsen/logrus"
-	utils "github.com/bbernhard/signal-cli-rest-api/utils"
+	utils "github.com/hashemamireh/signal-cli-rest-api/utils"
 )
 
 type CliClient struct {
